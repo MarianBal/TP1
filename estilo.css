@@ -39,3 +39,15 @@ height:auto;
     justify-content: space-evenly;
     align-items:center;
 }
+#botonera ul li{
+    width:70px;
+    height: 70px;
+    border: solid 1px black;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
