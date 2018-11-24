@@ -29,7 +29,6 @@ ul{
 #logo{
 width:40%;
 height:50px;
-background:red;
 }
 #botonera{
     width:60%;
@@ -41,5 +40,4 @@ background:red;
     flex-direction: row;
     justify-content: space-evenly;
     align-items:center;
-    background:lightpink;
 }
