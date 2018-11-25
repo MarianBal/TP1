@@ -107,6 +107,7 @@ padding:2% 0 2% 0;
     flex-direction: row;
     justify-content: space-evenly;
     align-items:center;
+
 }
 #footer ul li{
     width:30px;
@@ -123,3 +124,68 @@ padding:2% 0 2% 0;
     width:65%;
     height: auto;
 }
+@media screen and (max-width: 1024px) {
+   #header{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+   } 
+   #botonera{
+    width:100%;
+}
+   #trabajos{
+    height:80%;
+   }
+   #footer{
+       justify-content: center;
+   }
+}
+@media screen and (max-width: 500px) {
+    #header{
+        height:auto;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    #logo{
+        width:60%;
+        }
+    #botonera{
+        height:32%;
+        padding: 1% 0 1% 0;
+    }
+    #botonera ul{
+        width:70%;
+        height:100%;
+        padding:0;
+        margin:0 auto 0 auto;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items:center;
+        align-content:space-around;
+    }
+    #trabajos{
+     height:100%;
+     flex-direction: column;
+    }
+    #trabajos .fotos{
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(2){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(3){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(4){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(5){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(6){
+        width:100%;
+    }
+ }
