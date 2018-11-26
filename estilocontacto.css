@@ -1,0 +1,154 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type:none;
+}
+#contenedor{
+  width:60%;
+  height:auto;
+  margin: 0 auto 0 auto;
+}
+#header{
+  width:100%;
+  height:auto;
+  overflow:auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  width:30%;
+  height:auto;
+  align-content: center;
+}
+#botonera{
+  width:60%;
+}
+#botonera ul{
+  width:100%;
+  padding:0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items:center; */
+}
+#botonera ul li{
+  width:70px;
+  height: 70px;
+  font-size: 15px;
+  border: solid 1px black;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#datos{
+  width: 100%;
+  background-color: mistyrose;
+  display: flex;
+  flex-direction: row;
+}
+#encuesta{
+  width: 60%;
+}
+#datosdelaempresa{
+  width: 40%;
+  justify-content: flex-start;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+}
+.contenedornya {
+  width: 100%;
+  display: flex;
+}
+.Nya {
+  width: 50%;
+  font-size: 10pt;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+.Nya input{
+  width: 100%;
+  border: 1px solid;
+}
+.Mail,.Mensaje{
+  width: 100%;
+  font-size: 10pt;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.Mail input{
+  width: 100%;
+  border: 1px solid;
+}
+.Mensaje{
+  margin: 20px 0;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+  border: 1px solid;
+  padding: 0 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+input[type=submit] {
+  width: 100px;
+  background-color: white;
+  color: blue;
+  border: none;
+}
+.Botones{
+  padding: 0 10px;
+}
+#mailempresa,#telefonoempresa{
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+#mailempresa{
+  padding-bottom: 10pt;
+}
+#mailempresa a{
+  font-size: 10pt;
+}
+#telefonoempresa p{
+  font-size: 10pt;
+}
+#direccionempresa{
+  padding-left: 10px;
+}
+#direccionempresa p{
+  font-size: 10pt;
+}
+#footer{
+  width:100%;
+  height:10%;
+  background:black;
+  display:flex;
+  align-items: center;
+}
+#footer ul{
+  width:40%;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+}
+#footer ul li{
+  width:30px;
+  height:30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background:white;
+}
