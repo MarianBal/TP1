@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 ul{
     list-style-type:none;
@@ -90,30 +90,47 @@ padding:2% 0 2% 0;
     align-items: center;
     align-content: center;
 }
-#trabajos .fotos{
+.fotos{
     width:60%;
     height:25%;
     background:#037ef3;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px; 
+    font-style: bold;
+    color:white;
 }
-#trabajos .fotos:nth-child(2){
+.fotos:nth-child(2){
     width:40%;
     background:#f85a40;
+    font-size:20px; 
+    font-style: normal;
 }
-#trabajos .fotos:nth-child(3){
+.fotos:nth-child(3){
     width:40%;
     background:#30c39e;
+    font-size:20px; 
+    font-style: normal;
 }
-#trabajos .fotos:nth-child(4){
+.fotos:nth-child(4){
     width:60%;
     background:#f48924;
+    font-size:20px; 
+    font-style: normal;
 }
-#trabajos .fotos:nth-child(5){
+.fotos:nth-child(5){
     width:70%;
     background:#0a8ea0;
+    font-size:20px; 
+    font-style: normal;
 }
-#trabajos .fotos:nth-child(6){
+.fotos:nth-child(6){
     width:30%;
     background:#ffc845;
+    font-size:20px; 
+    font-style: normal;
 }
 #footer{
     width:100%;
@@ -130,7 +147,6 @@ padding:2% 0 2% 0;
     flex-direction: row;
     justify-content: space-evenly;
     align-items:center;
-
 }
 #footer ul li{
     width:30px;
@@ -159,6 +175,9 @@ padding:2% 0 2% 0;
    #trabajos{
     height:80%;
    }
+   /*#trabajos */.fotos{
+    font-size: 22px;
+}
    #footer{
        justify-content: center;
    }
@@ -205,8 +224,10 @@ padding:2% 0 2% 0;
         align-items: center;
     }
     #trabajos .fotos{
-        width:100%;
+        width:98%;
         height:20%;
+        padding: 0 1% 0 1%;
+        font-size: 20px;
     }
     #trabajos .fotos:nth-child(2){
         width:100%;
