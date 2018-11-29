@@ -240,7 +240,6 @@ input[type=submit] {
 h6::before{
   content:"pame";
   color: blue;
-  /* position: absolute; */
   background: green;
   width: 60px;
 }
