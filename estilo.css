@@ -237,13 +237,6 @@ input[type=submit] {
 #direccionempresa p{
   font-size: 10pt;
 }
-h6::before{
-  content:"pame";
-  color: blue;
-  /* position: absolute; */
-  background: green;
-  width: 60px;
-}
 @media screen and (max-width: 1024px) {
    #header{
     flex-direction: column;
