@@ -77,7 +77,7 @@ padding:2% 0 2% 0;
 #botonera a:visited{
     text-decoration:none;
     color:black;
-}	
+}
 #trabajos{
     width:100%;
     height:90%;
@@ -94,41 +94,41 @@ padding:2% 0 2% 0;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:20px; 
+    font-size:20px;
     font-style: bold;
     color:white;
 }
 .fotos:nth-child(1){
-    font-size:25px; 
+    font-size:25px;
 }
 .fotos:nth-child(2){
     width:40%;
     background:#f85a40;
-    font-size:20px; 
+    font-size:20px;
     font-style: normal;
 }
 .fotos:nth-child(3){
     width:40%;
     background:#30c39e;
-    font-size:20px; 
+    font-size:20px;
     font-style: normal;
 }
 .fotos:nth-child(4){
     width:60%;
     background:#f48924;
-    font-size:20px; 
+    font-size:20px;
     font-style: normal;
 }
 .fotos:nth-child(5){
     width:70%;
     background:#0a8ea0;
-    font-size:20px; 
+    font-size:20px;
     font-style: normal;
 }
 .fotos:nth-child(6){
     width:30%;
     background:#ffc845;
-    font-size:20px; 
+    font-size:20px;
     font-style: normal;
 }
 #footer{
@@ -161,12 +161,95 @@ padding:2% 0 2% 0;
     width:65%;
     height: auto;
 }
+#datos{
+  width: 100%;
+  background-color: mistyrose;
+  display: flex;
+}
+#encuesta{
+  width: 60%;
+}
+#datosdelaempresa{
+  width: 40%;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+}
+.contenedornya {
+  width: 100%;
+  display: flex;
+}
+.Nya {
+  width: 50%;
+  font-size: 10pt;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+.Nya input{
+  width: 100%;
+  border: 1px solid;
+}
+.Mail,.Mensaje{
+  width: 100%;
+  font-size: 10pt;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.Mail input{
+  width: 100%;
+  border: 1px solid;
+}
+.Mensaje{
+  margin: 20px 0;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+  border: 1px solid;
+  padding: 0 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+input[type=submit] {
+  width: 100px;
+  background-color: white;
+  color: blue;
+  border: none;
+}
+.Botones{
+  padding: 0 10px;
+}
+#mailempresa,#telefonoempresa{
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+#mailempresa{
+  padding-bottom: 10pt;
+}
+#mailempresa a{
+  font-size: 10pt;
+}
+#telefonoempresa p{
+  font-size: 10pt;
+}
+#direccionempresa{
+  padding-left: 10px;
+}
+#direccionempresa p{
+  font-size: 10pt;
+}
+h6::before{
+  content:"pame";
+  color: blue;
+  /* position: absolute; */
+  background: green;
+  width: 60px;
+}
 @media screen and (max-width: 1024px) {
    #header{
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-   } 
+   }
    #botonera{
     width:100%;
 }
@@ -186,7 +269,7 @@ padding:2% 0 2% 0;
         flex-direction: column;
         justify-content:flex-start;
         align-items:center;
-    } 
+    }
     #logo{
         width:100%;
         display: flex;
