@@ -220,7 +220,8 @@ input[type=submit] {
 }
 #mailempresa,#telefonoempresa{
   border-bottom: 1px solid black;
-  padding-left: 10px;
+  padding-left: 40px;
+  position: relative;
 }
 #mailempresa{
   padding-bottom: 10pt;
@@ -232,10 +233,16 @@ input[type=submit] {
   font-size: 10pt;
 }
 #direccionempresa{
-  padding-left: 10px;
+  padding-left: 40px;
+  position: relative;
 }
 #direccionempresa p{
   font-size: 10pt;
+}
+.iconosdatos {
+  position: absolute;
+  left: 7px;
+  top: -2px;
 }
 @media screen and (max-width: 1024px) {
    #header{
