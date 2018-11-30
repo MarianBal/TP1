@@ -88,7 +88,8 @@ padding:2% 0 2% 0;
 }
 .fotos{
     width:60%;
-    height:25%;
+    height:30%;
+    overflow:hidden;
     background:#037ef3;
     text-align: center;
     display:flex;
@@ -97,6 +98,10 @@ padding:2% 0 2% 0;
     font-size:20px;
     font-style: bold;
     color:white;
+}
+.fotos img{
+    width: auto;
+    height:100%;
 }
 .fotos:nth-child(1){
     font-size:25px;
