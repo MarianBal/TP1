@@ -1,0 +1,26 @@
+.header{
+  height: 100px ;  
+  background-color: blueviolet;
+}
+
+.botonera{
+    height: 100px ;  
+   }
+.testimonio{ 
+ background-color: white ;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+
+.caja{
+    background-color: rgb(12, 248, 217);
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.footer{
+    background-color: yellow;
+    height:100px ;
+}
