@@ -172,6 +172,8 @@ padding:2% 0 2% 0;
   width: 100%;
   background-color: mistyrose;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #encuesta{
   width: 60%;
