@@ -262,15 +262,26 @@ input[type=submit] {
    }
    #botonera{
     width:100%;
-}
+  }
    #trabajos{
     height:80%;
    }
    .fotos{
     font-size: 22px;
-}
+  }
    #footer{
-       justify-content: center;
+    justify-content: center;
+   }
+   #encuesta, #datosdelaempresa{
+    width: 100%;
+    border-left: 0;
+   }
+   #datosdelaempresa {
+    border-top: 1px solid black;
+   }
+   #datos{
+    width: 100%;
+    flex-direction: column;
    }
 }
 @media screen and (max-width: 500px) {
@@ -333,10 +344,21 @@ input[type=submit] {
       width: 100%;
       flex-direction: column;
     }
+    .datosparacompletar {
+      width: 100%;
+    }
     /*#footer{
         width: 100%;
     }*/
+    .contenedornya {
+      flex-direction: column;
+    }
+    .Nya {
+      width: 100%;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
     #footer ul{
-        width:80%;
+      width:80%;
     }
  }
