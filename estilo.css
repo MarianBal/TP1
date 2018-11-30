@@ -102,8 +102,6 @@ padding:2% 0 2% 0;
 .fotos img{
     width: auto;
     height:100%;
-    opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 .fotos:nth-child(2){
     width:40%;
@@ -159,6 +157,8 @@ padding:2% 0 2% 0;
   width: 100%;
   background-color: mistyrose;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #encuesta{
   width: 60%;
@@ -214,7 +214,8 @@ input[type=submit] {
 }
 #mailempresa,#telefonoempresa{
   border-bottom: 1px solid black;
-  padding-left: 10px;
+  padding-left: 40px;
+  position: relative;
 }
 #mailempresa{
   padding-bottom: 10pt;
@@ -226,10 +227,16 @@ input[type=submit] {
   font-size: 10pt;
 }
 #direccionempresa{
-  padding-left: 10px;
+  padding-left: 40px;
+  position: relative;
 }
 #direccionempresa p{
   font-size: 10pt;
+}
+.iconosdatos {
+  position: absolute;
+  left: 7px;
+  top: -2px;
 }
 @media screen and (max-width: 1024px) {
    #header{
