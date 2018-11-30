@@ -102,8 +102,6 @@ padding:2% 0 2% 0;
 .fotos img{
     width: auto;
     height:100%;
-    opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 .fotos:nth-child(1){
     font-size:25px;
@@ -172,6 +170,8 @@ padding:2% 0 2% 0;
   width: 100%;
   background-color: mistyrose;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #encuesta{
   width: 60%;
