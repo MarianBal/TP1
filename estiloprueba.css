@@ -309,6 +309,21 @@ input[type=submit] {
         padding: 0 1% 0 1%;
         font-size: 20px;
     }
+    #trabajos .fotos:nth-child(2){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(3){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(4){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(5){
+        width:100%;
+    }
+    #trabajos .fotos:nth-child(6){
+        width:100%;
+    }
     #footer ul{
         width:80%;
     }
