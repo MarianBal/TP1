@@ -275,6 +275,12 @@ input[type=submit] {
         height: auto;
         margin: 0 auto 0 auto;
     }
+    #logo a {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #botonera{
         height:32%;
         padding: 2% 0 2% 0;
@@ -306,6 +312,14 @@ input[type=submit] {
     /*#footer{
         width: 100%;
     }*/
+    #encuesta, #datosdelaempresa{
+      width: 100%;
+      border-left: 0;
+    }
+    #datos{
+      width: 100%;
+      flex-direction: column;
+    }
     #footer ul{
         width:80%;
     }
