@@ -24,8 +24,8 @@ a{
     align-items: center;
 }
 #logo{
-width:30%;
-padding:2% 0;
+    width:30%;
+    padding:2% 0;
 }
 #logo #Layer_1{
     width: 90%;
@@ -166,10 +166,10 @@ padding:2% 0;
   margin-bottom: 20px;
 }
 #encuesta{
-  width: 60%;
+  width: 70%;
 }
 #datosdelaempresa{
-  width: 40%;
+  width: 30%;
   border-left: 1px solid black;
   box-sizing: border-box;
 }
@@ -183,19 +183,24 @@ padding:2% 0;
   margin: 20px 0;
   padding: 0 10px;
 }
-.Nya input{
+input{
   width: 100%;
-  border: 1px solid;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+}
+.Tipodeproyecto{
+  display: flex;
+}
+.eleccion{
+  font-size: 11px;
 }
 .Mail,.Mensaje{
   width: 100%;
   font-size: 10pt;
   padding: 0 10px;
   box-sizing: border-box;
-}
-.Mail input{
-  width: 100%;
-  border: 1px solid;
 }
 .Mensaje{
   margin: 20px 0;
