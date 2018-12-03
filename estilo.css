@@ -244,6 +244,36 @@ input[type=submit] {
   left: 7px;
   top: -2px;
 }
+/*Bere*/
+#seccionnosotras {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.bloque-p {
+    width: 40%;
+}
+.foto-p {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.foto-p img {
+    width: 100%;
+}
+.descripcion-p {
+    text-align: center;
+}
+.nombre-p {
+    letter-spacing: 5px;
+}
+.texto-p {
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    font-size: 0.8em;
+}
 @media screen and (max-width: 1024px) {
    #header{
     flex-direction: column;
