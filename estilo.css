@@ -183,7 +183,7 @@ a{
   margin: 20px 0;
   padding: 0 10px;
 }
-input{
+.Nya input, .Mail input{
   width: 100%;
   margin-top: 10px;
   border-style: solid;
@@ -192,9 +192,11 @@ input{
 }
 .Tipodeproyecto{
   display: flex;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 .eleccion{
-  font-size: 11px;
+  font-size: 12px;
 }
 .Mail,.Mensaje{
   width: 100%;
@@ -221,6 +223,12 @@ input[type=submit] {
 }
 .Botones{
   padding: 0 10px;
+}
+.contenedorproyecto{
+  padding: 0 10px;
+}
+.tituloform{
+  font-family: sans-serif;
 }
 #mailempresa,#telefonoempresa{
   border-bottom: 1px solid black;
