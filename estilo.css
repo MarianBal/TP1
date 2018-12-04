@@ -352,6 +352,9 @@ input[type=submit] {
 .bloque-p {
     width: 40%;
 }
+#fotomariana{
+  margin-bottom: 20px;
+}
 .foto-p {
     width: 80%;
     height: auto;
