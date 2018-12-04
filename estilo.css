@@ -158,12 +158,27 @@ a{
     width:65%;
     height: auto;
 }
+h1{
+  font-size: 25px;
+  font-weight: bold;
+  color: #4C4847;
+}
+h2{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4C4847;
+}
+.tituloform {
+  font-size: 11pt;
+  font-family: inherit;
+}
 #datos{
   width: 100%;
-  background-color: mistyrose;
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: solid 1px #4C4847;
+  box-sizing: border-box;
 }
 #encuesta{
   width: 70%;
@@ -179,22 +194,33 @@ a{
 }
 .Nya {
   width: 50%;
-  font-size: 10pt;
   margin: 20px 0;
   padding: 0 10px;
 }
-input{
+.Nya input, .Mail input{
   width: 100%;
+  height: 30px;
   margin-top: 10px;
   border-style: solid;
   border-width: 0 0 1px 0;
-  background-color: transparent;
+  background-color: #cce6ff;
 }
-.Tipodeproyecto{
-  display: flex;
+.Mensaje textarea{
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #cce6ff;
+}
+input:focus, textarea:focus {
+  background-color: #ffcc80;
+  outline: none;
+  border: 0;
+}
+#tipo{
+  margin: 15px 0;
 }
 .eleccion{
-  font-size: 11px;
+  font-size: 12px;
 }
 .Mail,.Mensaje{
   width: 100%;
@@ -210,16 +236,24 @@ textarea{
   height: 200px;
   border: 1px solid;
   padding: 0 10px;
+  margin-top: 20px;
   box-sizing: border-box;
   resize: none;
 }
 input[type=submit] {
-  width: 100px;
   background-color: white;
-  color: blue;
-  border: none;
 }
 .Botones{
+  padding: 0 10px;
+}
+.Botones input{
+  height: 30px;
+  background-color: silver;
+  border: none;
+  padding: 5px 15px;
+  margin-right: 15px;
+}
+.contenedorproyecto{
   padding: 0 10px;
 }
 #mailempresa,#telefonoempresa{
