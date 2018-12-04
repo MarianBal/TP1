@@ -69,14 +69,14 @@ a{
     text-decoration:none;
     color:black;
 }
-#trabajos{
+#portfolio{
     width:100%;
     height:90%;
     display:flex;
     flex-wrap: wrap;
     align-content: center;
 }
-.fotos{
+.testimonio{
     width:60%;
     height:30%;
     overflow:hidden;
@@ -89,40 +89,40 @@ a{
     font-style: bold;
     color:white;
 }
-.fotos img{
+.testimonio img{
     width: auto;
     height:100%;
     opacity: 0.3;
    /* For IE8 and earlier */
 }
-.fotos:nth-child(1){
+.testimonio:nth-child(1){
     font-size:20px;
 }
-.fotos:nth-child(2){
+.testimonio:nth-child(2){
     width:40%;
     background:#f85a40;
     font-size:20px;
     font-style: normal;
 }
-.fotos:nth-child(3){
+.testimonio:nth-child(3){
     width:40%;
     background:#30c39e;
     font-size:20px;
     font-style: normal;
 }
-.fotos:nth-child(4){
+.testimonio:nth-child(4){
     width:60%;
     background:#f48924;
     font-size:20px;
     font-style: normal;
 }
-.fotos:nth-child(5){
+.testimonio:nth-child(5){
     width:70%;
     background:#0a8ea0;
     font-size:20px;
     font-style: normal;
 }
-.fotos:nth-child(6){
+.testimonio:nth-child(6){
     width:30%;
     background:#ffc845;
     font-size:20px;
@@ -393,7 +393,7 @@ input[type=submit] {
         justify-content: center;
         align-items: center;
     }
-    #trabajos .fotos{
+    #trabajos .testimonio{
         width:98%;
         height:20%;
         padding: 0 1% 0 1%;
