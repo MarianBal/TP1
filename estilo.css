@@ -97,6 +97,8 @@ a{
 }
 .fotos:nth-child(1){
     font-size:25px;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
 .fotos:nth-child(2){
     width:40%;
