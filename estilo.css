@@ -249,7 +249,7 @@ input[type=submit] {
   left: 7px;
   top: -2px;
 }
-/*Bere*/
+/*Bere:nosotras*/
 #seccionnosotras {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -279,6 +279,7 @@ input[type=submit] {
     line-height: 30px;
     font-size: 0.8em;
 }
+/* fin bere:nosotras */
 @media screen and (max-width: 1024px) {
    #header{
     flex-direction: column;
@@ -308,6 +309,10 @@ input[type=submit] {
     width: 100%;
     flex-direction: column;
    }
+   #seccionnosotras {
+       flex-wrap: wrap;
+   }
+
 }
 @media screen and (max-width: 500px) {
     #header{
@@ -384,5 +389,13 @@ input[type=submit] {
     }
     #footer ul{
       width:80%;
+    }
+    #seccionnosotras {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .bloque-p {
+        width: 100%;
+        margin-bottom: 30px;
     }
  }
