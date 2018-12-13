@@ -10,7 +10,6 @@ a{
     text-decoration:none;
     color:black;
 }
-
 #contenedor{
     width:60%;
     margin: 0 auto;
@@ -151,7 +150,7 @@ a{
 .testimonio img{
     width: auto;
     height:100%;
-    opacity: 0.3;
+    /*opacity: 0.3;*/
    /* For IE8 and earlier */
 }
 .testimonio:nth-child(1){
