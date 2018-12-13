@@ -96,6 +96,8 @@ a{
 }
 .fotos:nth-child(1){
     font-size:25px;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
 .fotos:nth-child(2){
     width:40%;
@@ -155,6 +157,8 @@ a{
 }
 .testimonio:nth-child(1){
     font-size:20px;
+    padding: 0 2%;
+    box-sizing: border-box;
 }
 .testimonio:nth-child(2){
     width:40%;
@@ -173,12 +177,16 @@ a{
     background:#f48924;
     font-size:20px;
     font-style: normal;
+    padding: 0 5%;
+    box-sizing: border-box;
 }
 .testimonio:nth-child(5){
     width:70%;
     background:#0a8ea0;
     font-size:20px;
     font-style: normal;
+    padding: 0 5%;
+    box-sizing: border-box;
 }
 .testimonio:nth-child(6){
     width:30%;
